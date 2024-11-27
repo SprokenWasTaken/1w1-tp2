@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="nav-brand">
+      <img src="CSS/IMAGES/logo.png" alt="Logo" class="nav-logo">
+      <div class="nav-title">SPROKEN</div>
+    </div>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <div class="dropdown">
+        <a href="#projects">Portfolio</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Visual Studio</a></li>
+          <li><a href="#">Photoshop</a></li>
+          <li><a href="#">Premiere Pro</a></li>
+          <li><a href="#">Roblox Studio</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <a href="#shop">Shop</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Assets</a></li>
+          <li><a href="#">Commission</a></li>
+          <li><a href="#">Donate</a></li>
+        </ul>
+      </div>
+      <a href="#contact">Contact</a>
+    </nav>     
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-content">
+      <h1>Welcome to <span>Sproken</span>'s Portfolio</h1>
+      <p>Multimedia Integrator</p>
+      <a href="#projects" class="hrefButton">View My Work</a>
+    </div>
+  </section>  
+
+  <!-- About Section -->
+<section id="about" class="about-section">
+  <h2 class="aboutH2">My dream is to illustrate whatever's in your head.</h2>
+  <div class="descriptionBoxes">
+    <div class="aboutBox">
+      <h1 class="aboutH1">What is Sproken?</h1>
+      <p class="aboutP">
+        <span class="default-font">Sproken</span> is the creative vision of a dedicated freelancer who brings ideas to life across all facets of multimedia. 
+        From scripting and 3D modeling to video production and graphic design, I handle it all : whatever your project needs, 
+        I can deliver.
+      </p>
+    </div>
+    <div class="aboutBox">
+      <h1 class="aboutH1">Why the name Sproken?</h1>
+      <p class="aboutP">
+        <span class="default-font">Sproken</span> is deliberately simple yet memorable, designed to leave a lasting impression. My work primarily 
+        gravitates towards dark, futuristic, and sci-fi creations, blending imagination with cutting-edge design. However, 
+        versatility is at the heart of what I do, and I’m equally adept at crafting other themes.
+      </p>
+    </div>
+    <div class="aboutBox">
+      <h1 class="aboutH1">Why me?</h1>
+      <p class="aboutP">
+        As a solo creator, I bring a personal touch to every project, ensuring a seamless blend of creativity and professionalism. 
+        <span class="default-font">Sproken</span> isn’t just about multimedia; it’s about making your vision to reality.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <h2 class="projectH2">Portfolio</h2>
+  <p class="aboutP">Explore the cutting-edge creations of <span class="default-font">Sproken</span>. From intricate 3D models and 
+    complex scripts to futuristic designs, each project showcases a commitment
+    to pushing the boundaries of creativity and technology. Discover how ideas evolve
+    into visually stunning and technically impressive solutions tailored for a
+    modern, digital world.</p>
+  <div class="gallery">
+    <figure class="gallery-item">
+      <img src="CSS/IMAGES/2dPhotoshopIcon.jpg" alt="Project 1">
+      <figcaption>Photoshop</figcaption>
+    </figure>
+    <figure class="gallery-item">
+      <img src="CSS/IMAGES/3dModelIcon.png" alt="Project 2">
+      <figcaption>Roblox Studio</figcaption>
+    </figure>
+    <figure class="gallery-item">
+      <img src="CSS/IMAGES/gameIcon.jpg" alt="Project 3">
+      <figcaption>Visual Studio</figcaption>
+    </figure>
+    <figure class="gallery-item">
+      <img src="CSS/IMAGES/premiereIcon.jpg" alt="Project 4">
+      <figcaption>Premiere Pro</figcaption>
+    </figure>
+  </div>
+</section>
+
+</section>
+
+  <!-- Shop Section -->
+  <section id="shop" class="shop-section">
+    <h2>Shop</h2>
+    <p>Browse and purchase exclusive 3D assets and designs created by Sproken. Perfect for enhancing your creative projects.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <p>Get in touch with Sproken for collaborations, inquiries, or custom designs. We'd love to hear from you!</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 Sproken inc. | All Rights Reserved</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="JS/index.js"></script>
+</body>
+</html>
